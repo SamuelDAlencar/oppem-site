@@ -1,0 +1,9 @@
+pre-commit:
+  commands:
+    prettier:
+      run: npx -y prettier --write ./
+
+commit-msg:
+  commands:
+    commitlint:
+      run: npx commitlint --edit
