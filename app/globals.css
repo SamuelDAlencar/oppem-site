@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Avgard';
+    src: url('/fonts/AVGARD.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Avgard';
+    src: url('/fonts/AVGARD_BOLD.TTF') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Avgard';
+    src: url('/fonts/AVGARD_ITALIC_BOLD.TTF') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+}
+
+html {
+  font-family: 'Avgard';
+}
