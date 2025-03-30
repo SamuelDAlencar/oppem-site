@@ -1,6 +1,6 @@
 'use client';
 
-import './globals.css';
+import '../styles/globals.css'
 
 import { useEffect, useState } from 'react';
 import { useTheme } from './ThemeProvider';
