@@ -1,0 +1,30 @@
+'use client';
+
+import Link from 'next/link';
+
+export default function Nav() {
+  return (
+    <header className="fixed w-full">
+      <nav className="flex py-7 justify-around z-10 bg-white">
+        <Link href="/">
+          <img src="/icons/oppem_icon.png " alt="oppem_icon" className="w-12 content-center" />
+        </Link>
+
+        <section className="flex justify-around w-5/12">
+          <Link href="/about" className="tracking-widest">
+            Sobre a Oppem
+          </Link>
+          <Link href="/products" className="tracking-widest">
+            Nosso sistema
+          </Link>
+          <Link href="/clients" className="tracking-widest">
+            Clientes
+          </Link>
+          <Link href="/contact" className="tracking-widest">
+            Contato
+          </Link>
+        </section>
+      </nav>
+    </header>
+  );
+}

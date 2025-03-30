@@ -25,6 +25,8 @@
   }
 }
 
-html {
-  font-family: 'Avgard';
+@layer base {
+  body {
+    @apply font-avgard dark:bg-slate-900 dark:text-white h-full absolute overflow-x-hidden;
+  }
 }
