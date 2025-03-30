@@ -1,7 +1,6 @@
 import React from 'react';
 import ProductCard from '../../components/ProductCard';
 
-
 export default function Products() {
   return (
     <section className="flex flex-col items-center justify-around min-h-screen w-full py-8 mt-20">
