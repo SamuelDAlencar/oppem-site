@@ -11,19 +11,21 @@ export default function Nav() {
         </Link>
 
         <section className="flex justify-around w-5/12">
-          <Link href="/about" className="tracking-widest">
+          <Link href="/about" className="link_component tracking-widest">
             Sobre a Oppem
           </Link>
-          <Link href="/products" className="tracking-widest">
-            Nosso sistema
+          <Link href="/products" className="link_component tracking-widest">
+            Nossos Produtos
           </Link>
-          <Link href="/clients" className="tracking-widest">
+          <Link href="/clients" className="link_component tracking-widest">
             Clientes
           </Link>
-          <Link href="/contact" className="tracking-widest">
+          <Link href="/contact" className="link_component tracking-widest">
             Contato
           </Link>
         </section>
+
+        <Link href="/"></Link>
       </nav>
     </header>
   );

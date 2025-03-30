@@ -2,13 +2,13 @@
 
 export default function Home() {
   return (
-    <section className="flex items-center h-[100vh]">
+    <section className="flex items-center mt-20">
       <section className="w-2/5 pl-64">
         <h1 className="text-7xl mt-8 h-72">
           Novas formas
           <br />
           de construir
-          <br />o <span className="text-teal-500 font-medium">futuro</span>.
+          <br />o <span className="tiffany_span">futuro</span>.
         </h1>
 
         <p className="text-2xl">
