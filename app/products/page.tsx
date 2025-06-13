@@ -3,7 +3,7 @@ import ProductCard from '../../components/ProductCard';
 
 export default function Products() {
   return (
-    <section className="flex flex-col items-center justify-around min-h-screen w-full py-8 mt-20">
+    <section className="flex flex-col items-center justify-around min-h-screen w-full py-8 mt-20 h-screen">
       <h1 className="text-4xl">
         Nossos <span className="tiffany_span">Produtos</span>
       </h1>
