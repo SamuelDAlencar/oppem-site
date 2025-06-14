@@ -20,11 +20,7 @@ export default function Clients() {
               '/images/timenow.png',
             ].map((logo, index) => (
               <div key={index} className="flex items-center justify-center">
-                <img 
-                  src={logo} 
-                  alt="Company logo" 
-                  className="max-w-full max-h-20 object-contain" 
-                />
+                <img src={logo} alt="Company logo" className="max-w-full max-h-20 object-contain" />
               </div>
             ))}
           </div>
